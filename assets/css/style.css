@@ -1,0 +1,67 @@
+body { font-family: 'Oswald', sans-serif;
+
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    background-image: url("../img/bg-hero-pedro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+
+}
+.color-pedro {
+    color: darkgreen;
+}
+
+.color-fondo-pedro {
+    background-color: darkgreen;
+  
+}
+nav {
+    color: white;
+}
+
+.navbar-nav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+    text-align: center;
+    background-color: white;
+    height: 2px;
+}
+
+.hr-gris {
+    text-align: center;
+    background-color: #373A3C;
+    height: 2px;
+}
+
+h3 {
+    font-weight: 300;
+    margin: 0;
+}
+
+h4 {
+    padding-left: 25rem;
+    padding-right: 25rem;
+    line-height: 50px;
+}
+
+.interlineado {
+    line-height: 40px;
+}
+h3, h2, .oswald {
+    font-weight: 700;
+}
+
+#exp {
+    color: #373A3C;
+}
