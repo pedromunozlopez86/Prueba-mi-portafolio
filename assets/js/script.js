@@ -16,7 +16,12 @@ $(document).ready(function () {
         $('[data-toggle="popover"]').popover()
       });
 
+    var modalContentElements = ["https://getbootstrap.com/", "https://jquery.com/", "https://drive.google.com/drive/u/0/my-drive", "https://getbootstrap.com/", "https://jquery.com/", "https://drive.google.com/drive/u/0/my-drive"];
+
     
+        $(function modalContent(id) {
+        const pageUrl = modalContentElements[id];
+        $("iframe").attr("src", pageUrl);
+        });
 
-
-});
+})
