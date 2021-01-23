@@ -65,3 +65,8 @@ h3, h2, .oswald {
 #exp {
     color: #373A3C;
 }
+
+.sombra-1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
