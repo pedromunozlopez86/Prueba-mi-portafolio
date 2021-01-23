@@ -19,11 +19,4 @@ $(document).ready(function () {
     
 })
 
- //   var modalContentElements = ["https://getbootstrap.com/", "https://jquery.com/", "https://drive.google.com/drive/u/0/my-drive", "https://getbootstrap.com/", "https://jquery.com/", "https://drive.google.com/drive/u/0/my-drive"]; //
-
-    var modalContentElements = "https://pedromunozlopez.tk/"
-
-   $(function modalContent(id) {
-       const pageUrl = modalContentElements[id];
-       $("iframe").attr("src", pageUrl);
-   }) 
+ 
