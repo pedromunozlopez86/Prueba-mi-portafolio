@@ -7,7 +7,7 @@ $(document).ready(function () {
             var gato = this.hash;
 
             $("html, body").animate({
-                scrollTop: $(gato).offset().top -72  //Resto 72px del alto del NavBar
+                scrollTop: $(gato).offset().top -65  //Resto 72px del alto del NavBar
             }, 700)} 
                 
     });
@@ -19,10 +19,11 @@ $(document).ready(function () {
     
 })
 
-var modalContentElements = ["https://getbootstrap.com/", "https://jquery.com/", "https://drive.google.com/drive/u/0/my-drive", "https://getbootstrap.com/", "https://jquery.com/", "https://drive.google.com/drive/u/0/my-drive"];
+ //   var modalContentElements = ["https://getbootstrap.com/", "https://jquery.com/", "https://drive.google.com/drive/u/0/my-drive", "https://getbootstrap.com/", "https://jquery.com/", "https://drive.google.com/drive/u/0/my-drive"]; //
 
+    var modalContentElements = "https://pedromunozlopez.tk/"
 
-    $(function modalContent(id) {
-        const pageUrl = modalContentElements[id];
-        $("iframe").attr("src", pageUrl);
-    })
+   $(function modalContent(id) {
+       const pageUrl = modalContentElements[id];
+       $("iframe").attr("src", pageUrl);
+   }) 
