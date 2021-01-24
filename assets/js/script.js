@@ -8,35 +8,35 @@ $(document).ready(function () {
             $("html, body").animate({
                 scrollTop: $(gato).offset().top -65  //Resto 72px del alto del NavBar
             }, 700)} 
-                
+            
+            $(function () {
+                $('[data-toggle="popover"]').popover()
+              });
     });
     
-    $(function () {
-        $('[data-toggle="popover"]').popover()
-      });
 
       $("#uno").click(function () {
-          $("iframe").attr("src", "https://pedromunozlopez86.github.io/meet-coffe/");
+          $("iframe.w-100").attr("src", "https://pedromunozlopez86.github.io/meet-coffe/");
       });
       
       $("#dos").click(function () {
-          $("iframe").attr("src", "https://pedromunozlopez86.github.io/iguana/");
+          $("iframe.w-100").attr("src", "https://pedromunozlopez86.github.io/iguana/");
         });
       
         $("#tres").click(function () {
-          $("iframe").attr("src", "https://pedromunozlopez86.github.io/Suricata/");
+          $("iframe.w-100").attr("src", "https://pedromunozlopez86.github.io/Suricata/");
         });
       
         $("#cuatro").click(function () {
-          $("iframe").attr("src", "https://pedromunozlopez86.github.io/Cuppon/");
+          $("iframe.w-100").attr("src", "https://pedromunozlopez86.github.io/Cuppon/");
         });
       
         $("#cinco").click(function () {
-          $("iframe").attr("src", "https://pedromunozlopez86.github.io/Ricomida/");
+          $("iframe.w-100").attr("src", "https://pedromunozlopez86.github.io/Ricomida/");
         });
       
         $("#seis").click(function () {
-          $("iframe").attr("src", "https://www.atp.com");
+          $("iframe.w-100").attr("src", "https://www.atp.com");
         });
     
 })
