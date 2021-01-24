@@ -20,26 +20,25 @@ $(document).ready(function () {
 })
 
     $("#uno").click(function () {
-        $("iframe").attr("src", "https://pedromunozlopez86.github.io/meet-coffe/");
+        $("iframe").attr("src", "https://vuejs.org/");
     });
 
     $("#dos").click(function () {
-        $("iframe").attr("src", "https://pedromunozlopez86.github.io/iguana/");
+        $("iframe").attr("src", "https://amazon.com/");
       });
 
       $("#tres").click(function () {
-        $("iframe").attr("src", "https://pedromunozlopez86.github.io/Suricata/");
+        $("iframe").attr("src", "https://google.cl/");
       });
 
       $("#cuatro").click(function () {
-        $("iframe").attr("src", "https://pedromunozlopez86.github.io/Cuppon/");
+        $("iframe").attr("src", "https://pedromunozlopez.tk/");
       });
 
       $("#cinco").click(function () {
-        $("iframe").attr("src", "https://pedromunozlopez86.github.io/Ricomida/");
+        $("iframe").attr("src", "https://skin.club");
       });
 
-      //El sexto proyecto no lo tenia, nunca lo vi //
       $("#seis").click(function () {
         $("iframe").attr("src", "https://www.atp.com");
       });
