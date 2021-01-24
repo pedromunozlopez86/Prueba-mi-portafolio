@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    alert("hola");
     $("a").click(function (event) { 
         if(this.hash !== "") {
             event.preventDefault();
@@ -7,7 +7,7 @@ $(document).ready(function () {
             var gato = this.hash;
 
             $("html, body").animate({
-                scrollTop: $(gato).offset().top -65  // le resto 65px del alto del NavBar y calza con el inicio de la seccion 
+                scrollTop: $(gato).offset().top -65  //Resto 72px del alto del NavBar
             }, 700)} 
                 
     });
@@ -16,6 +16,7 @@ $(document).ready(function () {
         $('[data-toggle="popover"]').popover()
       });
 
+    
 })
 
     $("#uno").click(function () {
